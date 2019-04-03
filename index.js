@@ -305,7 +305,7 @@ _.partition = function (collection, fn) {
         }
     });
     
-    array = array.push(truthyArray, falsyArray);
+    array = [truthyArray, falsyArray];
     
     return array;
 };
